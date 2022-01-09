@@ -1,4 +1,4 @@
 # K8notes
 
 ## Core Concepts
-- [ETCD] (ETCD.md) 
+- [ETCD](ETCD.md) - A distributed Key-Value Store
