@@ -10,5 +10,5 @@
       ` kubectl get pods -n kube-system `
      --> you will see etcd-master listed. 
   - To list all keys stored by Kubernetes, 
-  - 
+   
       ` kubectl exec etcd-master -n kube-sytem etcdctl get / --prefix -keys -only `
