@@ -35,3 +35,15 @@
   kubectl create -f replicaset-definition.yaml 
  
 ```
+
+- How to scale the replicas?
+- Update the replica in the definition file and run 
+
+```sh 
+  kubectl replace -f replicaset-definition.yml 
+```
+```sh
+  kubectl scale --replicas=6 -f replicaset-definition.yml
+  kubectl scale --replicas=6 -f replicaset myapp-replicaset
+```
+
