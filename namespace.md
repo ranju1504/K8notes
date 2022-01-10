@@ -9,6 +9,7 @@
  `
 
  - To connect to an object in another namespace
+ 
 `
     mysql.connect("db-service.dev.svc.cluster.local")
      
@@ -20,5 +21,19 @@
  
  
 `
-kubectl create -f pod-definition.yml --namespace=dev
+    kubectl create -f pod-definition.yml --namespace=dev
 `
+
+- To permanently change to another namespace as default:
+
+`
+    kubectl config set-contect $(kubectl config current-context) --namespace=dev
+    
+`
+ - Alternatively you can add the below in the yaml file
+
+`
+metadata:
+   name: 
+   namespace: dev
+   `
