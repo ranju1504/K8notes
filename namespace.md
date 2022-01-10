@@ -27,13 +27,13 @@
 - To permanently change to another namespace as default:
 
 `
-    kubectl config set-contect $(kubectl config current-context) --namespace=dev
-    
+    kubectl config set-contect $(kubectl config current-context) --namespace=dev   
 `
+
  - Alternatively you can add the below in the yaml file
 
 `
-metadata:
-   name: 
-   namespace: dev
+- metadata:
+  - name: 
+  - namespace: dev
    `
