@@ -16,7 +16,9 @@
      svc - sub domain
      dev - name space
      db-service - name of the service 
- `                              
+ `      
+ 
+ 
 `
 kubectl create -f pod-definition.yml --namespace=dev
 `
