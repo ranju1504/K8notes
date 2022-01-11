@@ -27,3 +27,7 @@ Effects can be Noschedule, PreferNoSchedule or NoExecute
      effect: "NoSchedule"
  ```
 
+-Taint and tolerations are meant to restrict nodes from accepting certain pods. 
+-Taint and toleration doesnot tell the pod to goto a particular nodes. 
+
+
