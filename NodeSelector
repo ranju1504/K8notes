@@ -1,0 +1,11 @@
+## Node Selector
+
+```sh
+"nodeSelector:
+     size: Large"
+```
+
+- Add the above snippet to the pod definition.
+- Prior to adding this, the node must be labelled appropriately.
+
+
